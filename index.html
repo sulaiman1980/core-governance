@@ -84,8 +84,7 @@
     </p>
 
     <button class="button">
-      Request Early Access
-    </button>
+Request Technical Brief    </button>
 
     <h2>The Problem</h2>
     <p>
@@ -102,15 +101,32 @@
       Instead, it observes behavior longitudinally,
       enforcing temporal consistency and detecting deviations before failure occurs.
     </p>
+<h2>How It Works (High-Level)</h2>
+<p>
+Core Governance continuously observes model behavior across time.
+It samples outputs, decisions, and response patterns within rolling temporal windows,
+constructing stability signatures that represent normal behavioral continuity.
+</p>
 
-    <h2>What This Is</h2>
+<p>
+Rather than optimizing performance, the system detects divergence, drift,
+or instability by measuring deviation from these temporal baselines.
+When deviation crosses a defined threshold, risk is flagged before observable failure occurs.
+</p>
+
+<p>
+No training. No tuning. No architectural interference.
+Only longitudinal behavioral control.
+</p>    <h2>What This Is</h2>
     <p>
       A governance core.  
       A behavioral stabilizer.  
       A temporal control system for AI.
     </p>
-
-    <h2>What This Is Not</h2>
+<p>
+Core Governance produces temporal risk signals — not predictions —
+indicating when a system is approaching behavioral instability over time.
+</p>    <h2>What This Is Not</h2>
     <p>
       Not a model.  
       Not a framework.  
